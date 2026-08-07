@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Конвертер Тенге в Рубли",
-  "version": "1.0",
+  "version": "0.1",
   "description": "Автоматически конвертирует цены из KZT в RUB на веб-страницах.",
   "permissions": ["activeTab"],
   "content_scripts": [
