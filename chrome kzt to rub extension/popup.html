@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>KZT to RUB</title>
+  <style>
+    html, body {
+      width: 220px;
+      margin: 0;
+      padding: 12px;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    h3 {
+      margin-top: 0;
+      font-size: 14px;
+      color: #333;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    .field {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+    input[type="number"] {
+      width: 90px; /* Сузили поле строго под размер цифр */
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      text-align: center;
+    }
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      justify-content: center; /* Центрируем чекбокс для визуального баланса */
+      gap: 6px;
+      font-size: 13px;
+      color: #444;
+      margin-bottom: 14px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .checkbox-container input {
+      cursor: pointer;
+      margin: 0;
+    }
+    .btn-container {
+      display: flex;
+      justify-content: center;
+    }
+    button {
+      padding: 6px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .status {
+      font-size: 11px;
+      color: green;
+      text-align: center;
+      height: 14px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Курс 1 KZT в RUB</h3>
+  
+  <div class="field">
+    <input type="number" id="rateInput" step="0.01" min="0.01" placeholder="0.18">
+  </div>
+
+  <label class="checkbox-container">
+    <input type="checkbox" id="showKztCheck">
+    <span>Показывать цену в тенге</span>
+  </label>
+
+  <div class="btn-container">
+    <button id="saveBtn">Применить</button>
+  </div>
+
+  <div id="statusMsg" class="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
