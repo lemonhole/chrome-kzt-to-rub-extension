@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Конвертер Тенге в Рубли",
+  "name": "chrome-kzt-to-rub-extension",
   "version": "0.1",
-  "description": "Автоматически конвертирует цены из KZT в RUB на веб-страницах.",
+  "description": "Конвертирует цены из KZT в RUB на веб-страницах.",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
