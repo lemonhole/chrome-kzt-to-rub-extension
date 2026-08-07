@@ -1,9 +1,15 @@
 {
   "manifest_version": 3,
   "name": "chrome-kzt-to-rub-extension",
-  "version": "0.1",
-  "description": "Конвертирует цены из KZT в RUB на веб-страницах.",
-  "permissions": ["activeTab"],
+  "version": "0.2",
+  "description": "Конвертирует KZT в RUB",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
