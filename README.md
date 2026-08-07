@@ -23,10 +23,10 @@
 2. **Распаковать архив** в отдельную папку.
 
 3. **Перейти в расширения Chrome** (`chrome://extensions/`) и включить **Режим разработчика** в правом верхнем углу:
-   <br><img width="1770" height="172" alt="Шаг 3: Включить режим разработчика" src="https://github.com/user-attachments/assets/f1cc599e-ed99-42d8-9c55-b46daab2b793" />
+   <br><br><img width="1770" height="172" alt="Шаг 3: Включить режим разработчика" src="https://github.com/user-attachments/assets/f1cc599e-ed99-42d8-9c55-b46daab2b793" />
 
 4. Нажать кнопку **"Загрузить распакованное расширение"** в левом верхнем углу и указать папку, внутри которой лежат файлы `manifest.json` и `content.js`:
-   <br><img width="399" height="213" alt="Шаг 4: Загрузить распакованное расширение" src="https://github.com/user-attachments/assets/48bb7d9b-fa1c-46a2-85aa-7fd7c7508255" />
+   <br><br><img width="399" height="213" alt="Шаг 4: Загрузить распакованное расширение" src="https://github.com/user-attachments/assets/48bb7d9b-fa1c-46a2-85aa-7fd7c7508255" />
 
 ---
 
@@ -38,4 +38,4 @@
 <br><br>
 <img width="317" height="279" alt="image" src="https://github.com/user-attachments/assets/af2b627e-a3c9-43f7-ac9e-82c05ef04b9d" />
 <br>
-Также доступна опция "Показывать цену в тенге" (по умолчанию выключено)
+Также доступна опция "Показывать цену в тенге" (по умолчанию выключена)
