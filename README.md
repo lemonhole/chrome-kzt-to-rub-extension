@@ -1,10 +1,14 @@
 ## Как это выглядит
 
-<img width="1429" height="657" alt="Пример работы 1" src="https://github.com/user-attachments/assets/b96dee91-c0a8-4dd5-aa69-f27b54097327" />
-
+<img width="1483" height="856" alt="image" src="https://github.com/user-attachments/assets/2e4ecc83-0d96-4f35-bbf0-2a2c264b99e6" />
+<br><br>
+<img width="1483" height="856" alt="image" src="https://github.com/user-attachments/assets/7ecf3ded-1e4a-40f3-a499-e8b9526a5348" />
 <br><br>
 
-<img width="1168" height="786" alt="Пример работы 2" src="https://github.com/user-attachments/assets/fd16e1ea-976a-4257-89f6-c7334dabd9a1" />
+<img width="1558" height="693" alt="image" src="https://github.com/user-attachments/assets/889bd757-ee0e-41ef-82ec-aac512da5e53" />
+<br><br>
+<img width="1558" height="693" alt="image" src="https://github.com/user-attachments/assets/89a01cf3-0b19-460b-a6e0-5a5124a9c9a3" />
+
 
 ---
 
@@ -20,3 +24,11 @@
 
 4. Нажать кнопку **"Загрузить распакованное расширение"** в левом верхнем углу и указать папку, внутри которой лежат файлы `manifest.json` и `content.js`:
    <br><img width="399" height="213" alt="Шаг 4: Загрузить распакованное расширение" src="https://github.com/user-attachments/assets/48bb7d9b-fa1c-46a2-85aa-7fd7c7508255" />
+
+Настройка:
+Курс не обновляется автоматически (сейчас стоит 0.18).
+Для обновления кликните по расширению и отредактируйте:
+<br><br>
+<img width="317" height="279" alt="image" src="https://github.com/user-attachments/assets/af2b627e-a3c9-43f7-ac9e-82c05ef04b9d" />
+<br><br>
+Также доступна опция "Показывать цену в тенге" (по умолчанию выключено)
